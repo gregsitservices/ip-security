@@ -16,7 +16,7 @@ Step4: Run PowerShell and Administrator (right click PowerShell and select Run A
 
 Step 5: Type without quotes "PowerShell.exe -ExecutionPolicy Bypass" - This will set the scripts Policy of PowerShell to run so that it can make the Windows FireWall Rules.
 
-Step 6: Begin entering the Zones into your Windows FireWall. Option 1 is for Older Versions of PowerShell. If Option 1 does not execute then use Option 2.
+Step 6: Begin entering the Zones into your Windows Firewall. Option 1 is for Older Versions of PowerShell. If Option 1 does not execute then use Option 2.
 
  Option 1: Import-Firewall-Blocklist.ps1 -inputfile china.zone.txt
 
@@ -31,6 +31,10 @@ That's it we are done... I suggest you keep your zone files so that you can upda
  Option 1: Import-Firewall-Blocklist.ps1 -inputfile china.zone.txt -deleteonly
 
  Option 2: .\Import-Firewall-Blocklist.ps1 -inputfile china.zone.txt -deleteonly
+
+
+
+See Our Blog with Images to each set at: https://www.gregsitservices.com/blog/2016/02/blocking-unwanted-countries-with-windows-firewall/
 
 
 ENJOY!
